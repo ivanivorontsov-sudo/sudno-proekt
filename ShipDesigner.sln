@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3811636D-5752-4A06-AA45-D04410134AFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipDesigner.Core", "src\ShipDesigner.Core\ShipDesigner.Core.csproj", "{1C4AAC22-4FC4-49AD-9915-10AA1C03C86F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CD24865B-16EF-4489-B2A0-0AE30A7548D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipDesigner.Tests", "tests\ShipDesigner.Tests\ShipDesigner.Tests.csproj", "{4AACD3F1-C1FB-4089-96A7-FB88579FF42C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipDesigner", "src\ShipDesigner\ShipDesigner.csproj", "{E9968791-809E-44E7-B99F-118E0ED1F355}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C4AAC22-4FC4-49AD-9915-10AA1C03C86F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4AAC22-4FC4-49AD-9915-10AA1C03C86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4AAC22-4FC4-49AD-9915-10AA1C03C86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4AAC22-4FC4-49AD-9915-10AA1C03C86F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AACD3F1-C1FB-4089-96A7-FB88579FF42C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AACD3F1-C1FB-4089-96A7-FB88579FF42C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AACD3F1-C1FB-4089-96A7-FB88579FF42C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AACD3F1-C1FB-4089-96A7-FB88579FF42C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9968791-809E-44E7-B99F-118E0ED1F355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9968791-809E-44E7-B99F-118E0ED1F355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9968791-809E-44E7-B99F-118E0ED1F355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9968791-809E-44E7-B99F-118E0ED1F355}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C4AAC22-4FC4-49AD-9915-10AA1C03C86F} = {3811636D-5752-4A06-AA45-D04410134AFE}
+		{4AACD3F1-C1FB-4089-96A7-FB88579FF42C} = {CD24865B-16EF-4489-B2A0-0AE30A7548D5}
+		{E9968791-809E-44E7-B99F-118E0ED1F355} = {3811636D-5752-4A06-AA45-D04410134AFE}
+	EndGlobalSection
+EndGlobal

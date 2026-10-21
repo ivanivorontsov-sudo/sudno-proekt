@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net8.0</TargetFramework><Nullable>disable</Nullable><ImplicitUsings>enable</ImplicitUsings><RootNamespace>ShipDesigner.Core</RootNamespace></PropertyGroup>
+  <ItemGroup><PackageReference Include="netDxf.netstandard" Version="3.0.1" /></ItemGroup>
+</Project>
